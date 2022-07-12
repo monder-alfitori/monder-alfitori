@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.section1 {
+    width: 100%;
+    height: 45vh;
+    background-color: #008080;
+  }
+  .section1 h2 {
+    text-align: center;
+    font-size: 2.8vw;
+    font-family: 'El Messiri', sans-serif;
+    color: #fff;
+    padding-top: 18vh;
+  }
+
+.section1 p {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.1vw;
+    font-family: 'El Messiri', sans-serif;
+    color: #fff;
+}
+
+
+
+
+.section2 {
+    width: 100%;
+}
+.section2 .block {
+    width: 80%;
+    height: 90vh;
+    background-color: #f97;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 5vh 5vw; 
+    border-radius: 40px;
+}
+.section2 .block .column1 {
+    float: left;
+    width: 40%;
+    background-color: #ffad92;
+    padding: 5vh 5vh;
+    border-radius: 20px;
+}
+.section2 .block .column1 input[type=text] {
+    width: 100%;
+    background-color: #fff;
+    padding: 1.5vw;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 3vh;
+}
+.section2 .block .column1 input[type=email] {
+    width: 100%;
+    background-color: #fff;
+    padding: 1.5vw;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 3vh;
+}
+.section2 .block .column1 input[type=number] {
+    width: 100%;
+    background-color: #fff;
+    padding: 1.5vw;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 3vh;
+}
+.section2 .block .column1 textarea {
+    width: 100%;
+    background-color: #fff;
+    padding: 1.5vw;
+    padding-bottom: 15vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 5vh;
+    resize: none;
+}
+.section2 .block .column1 input[type=submit] {
+    width: 100%;
+    background-color: #008080;
+    color: white;
+    padding: 3vh;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+      
+.section2 .block .column1 input[type=submit]:hover {
+    background-color: #fff;
+    color: #008080;
+    }
+
+.section2 .block .column2 {
+    float: right;
+    width: 45%;
+    margin-top: 10vh;
+
+}
+.section2 .block .column2 h3 {
+    color: #fff;
+    direction: rtl;
+    font-size: 3.5vw;
+    line-height: 1.3;
+    font-family: 'Almarai', sans-serif;
+
+}
+.section2 .block .column2 ul {
+    font-size: 1.5vw;
+    direction: rtl;
+    color: #fff;
+    margin-top: 10vh;
+    font-family: 'Cairo', sans-serif;
+}
+.section2 .block .column2 li {
+    margin-bottom: 2vh;
+}
+
+
+
+
+
+.section3 {
+    width: 100%;
+    padding-top: 70px;
+    height: 700px;
+    background-color: #d3d3d3;
+    margin-top: 10vh;
+}
+.section3 iframe {
+    margin-left: 10%;
+    border-radius: 30px;
+}
+
+
+

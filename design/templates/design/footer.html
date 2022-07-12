@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What we do?</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4100/4100643.png">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Cairo:wght@300&family=El+Messiri:wght@500&family=Scheherazade+New&family=Tajawal&display=swap" rel="stylesheet">
+</head>
+<style>
+.footer {
+    width: 100%;
+    background-color: #008080;
+    margin-top: 20vh;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+}
+.footer .row1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.footer .row1 img {
+    width: 10%;
+}
+.footer .row1 h3 {
+    font-size: 2vw;
+    color: #111;
+    font-family: 'El Messiri', sans-serif;
+}
+.footer .row1 p {
+    width: 60%;
+    margin: auto;
+    font-size: 1.5vw;
+    color: #fff;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+.footer .row1 .social img {
+    width: 3%;
+    margin: 0 1vw;
+}
+
+
+.footer .row2 {
+    width: 97%;
+    margin: auto;
+    margin-top: 10vh;
+    border-top: 1px solid #f97;
+    padding-top: 3vh;
+
+}
+.footer .row2 .column1 {
+    float: left;
+}
+.footer .row2 .column1 h5 {
+    font-size: 1.2vw;
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.footer .row2 .column1 a {
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: #f97;
+    font-family: 'Tajawal', sans-serif;
+}
+.footer .row2 .column2 {
+    float: right;
+}
+.footer .row2 .column2 a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #fff;
+    margin: 0 0.2vw;
+    font-family: 'Tajawal', sans-serif;
+    border-bottom: 2px solid #f97;
+}
+</style>
+<body>
+    <div class="footer">
+        <div class="row1">
+            <img src="https://pbs.twimg.com/media/FXaGEjlX0AEziCs?format=png&name=900x900" alt="">
+            <h3>تفكير للاستشارات والتدريب</h3>
+            <p>شركة استشارية ناشئة بطموح كبير.
+                نعمل من ليبيا.
+                نركز الآن في بدايتنا على المجال الوطني،
+                مع الانفتاح على الفرص والأعمال والشراكات في الإقليم والعالم.
+                ندرك الحاجة الملحة في ليبيا للبناء المؤسسي
+                سواء في مؤسسات القطاع الخاص أو القطاع الحكومي أو المجتمع المدني
+            </p>        
+            <div class="social">
+                <a href=""><img src="https://pbs.twimg.com/media/FXZ1YWQWQAY0loO?format=png&name=small" alt=""></a>
+                <a href=""><img src="https://pbs.twimg.com/media/FXZ1NzNWIAIQQmw?format=png&name=small" alt=""></a>
+                <a href=""><img src="https://pbs.twimg.com/media/FXZ1YxVXgAEGQOp?format=png&name=small" alt=""></a>
+                <a href=""><img src="https://pbs.twimg.com/media/FXZ2FdZX0AAJV21?format=png&name=small" alt=""></a>
+            </div>  
+        </div>
+        <div class="row2">
+            <div class="column1">
+                <h5>Copyright © 2022 تـفـكـيـر | Powered by [<span><a href="{% url 'home' %}">tafkeer.ly</a></span>]</h5>
+            </div>
+            <div class="column2">
+                <a href="{% url 'services' %}">ماذا نعمل؟</a>
+                <a href="{% url 'career' %}">انضم إلينا</a>
+                <a href="{% url 'about' %}">من نحن؟</a>
+                <a href="{% url 'contact' %}">تواصل معنا</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What we do?</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4100/4100643.png">
+    <link rel="stylesheet" href="{% static 'css/style_services.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Cairo:wght@300&family=El+Messiri:wght@500&family=Scheherazade+New&family=Tajawal&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="section1">
+        <h2>ماذا نعمل؟</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+
+    <div class="section2">
+        <div class="row1">
+            <h4>مـاذا نـعـمـل؟</h4>
+            <p>تسعى تفكير للاستشارات والتدريب لتقديم خدمات استشارية متميزة للشركات الخاصة والجهات العامة والمدراء والقياديين، وكذلك تقديم برامج تدريبية ذات قيمة عالية مفيدة في البيئة المحلية. نرى أن هناك حاجة ماسة عندنا للتطوير المؤسسي، وهناك إشكاليات حقيقية وفي نفس الوقت هذه الإشكاليات هي فرص كبيرة للتطوير والتغيير. نحاول الاستفادة من أحسن المعارف والخبرات الإنسانية في مجال الإدارة والبناء المؤسسي، وتقديم اجتهاداتنا وإضافتنا الخاصة المميزة بما يخدم البيئة المحلية.</p>
+            <hr class="hr1">
+            <hr class="hr2">
+            <hr class="hr3">
+        </div>
+        <div class="row2">
+            <div class="column1">
+                <img src="https://www.financialmappers.com.au/wp-content/uploads/2015/10/customise-wealth-financial-report-planning.png" alt="">
+            </div>
+            <div class="column2">
+                <h4>01</h4>
+                <hr>
+                <a href="{% url 'consulting_services' %}">معرفة المزيد</a>
+                <h3>الخدمات الاستشارية</h3>
+                <P>نسعى لبناء شراكات مع الجهات الطالبة للخدمات الاستشارية. تركز استشاراتنا على المساعدة في عملية البناء المؤسسي بشكل عام، بما تتضمنه من اهتمام بجوانب الثقافة المؤسسية وبيئة العمل والهيكلة وبناء وتنمية الإمكانات البشرية والتطوير والتغيير والجودة وهذا كله ضمن عملية بناء لتوجه استراتيجي.<br>نقدم خدماتنا الاستشارية لكل من:<br>– الشركات الخاصة القائمة أو الناشئة<br>– الشركات العامة<br>– الجهات الحكومية سواء الوزارات أو الهيئات أو المصالح المختلفة<br>– المجالس البلدية<br>– استشارات خاصة للأفراد من القياديين والإداريين<br>            </P>
+            </div>
+        </div>
+        <hr class="hr4">
+        <hr class="hr5">
+    </div>
+
+
+
+    <div class="section3">
+        <div class="row2">
+            <div class="column1">
+                <img src="https://d33wubrfki0l68.cloudfront.net/3ad34c640409087730d0cc8a28b8f1109d64b38e/eb378/assets/images/ux-methods/icon-remote-testing-big@2x.png" alt="">
+            </div>
+            <div class="column2">
+                <h4>02</h4>
+                <hr>
+                <a href="#">معرفة المزيد</a>
+                <h3>تطوير القدرات البشرية                </h3>
+                <p>نعمل على تصميم وتنفيذ برامج تدريبية ذات مردود واضح وتقدم للأفراد والمجموعات والفرق في شكل دورات وورش عمل وحلقات نقاش. سيتم وضع التفاصيل والإعلان عن البرامج فيه حينها.</p>
+                <p>كذلك نقدم برامج تدريبية مخصصة للأفراد وخاصة من رجال الأعمال والقياديين والذين يحتاج إلى تطوير قدرات معينة بشكل متخصص ومنفرد وربما لا يستطيعون الانخراط في دورات تدريبية لمجموعات.</p>
+            </div>
+        </div>
+        <hr class="hr2">
+        <hr class="hr3">
+    </div>
+
+
+
+    <div class="section4">
+        <div class="row2">
+            <div class="column1">
+                <img src="https://sagaratechnology.com/blog/wp-content/uploads/2021/11/website-development.png" alt="">
+            </div>
+            <div class="column2">
+                <h4>03</h4>
+                <hr>
+                <a href="#">معرفة المزيد</a>
+                <h3>التحول الرقمي وتصميم المواقع وإدارة المحتوى</h3>
+                <p>ندرك أهمية التقنيات الحديثة ، ونعتبر تقنية المعلومات هي ممكن رئيسي للتغيير، ولهذا نساعد الشركات والجهات المختلفة في عملية التحول الرقمي، وكيف تأتي هذه العملية ضمن عملية تحول شاملة ، وليس مجرد تركيب لمنظومات أو برامجيات.</p>
+                <p>كذلك نقدم خدمات تصميم المواقع وإدارة المحتوى. هناك إدراك واضح لأهمية إدارة المحتوى المكتوب والمصور والمرئي والمسموع، لأي شركة من الشركات، وعملية تصميم الموقع ليست مجرد قوالب جاهزة فقط، وإنما يحتاج الأمر إلى إنتاج محتوى معرفي جيد موجه للزبون والشركاء. ندرك القصور والصعوبة في الخبرة المحلية بالخصوص ونعمل على تقديم خدمات مميزة بشأنها.</p>
+            </div>
+        </div>
+        <hr class="hr2">
+        <hr class="hr3">
+
+    </div>
+
+
+
+
+    <div class="section5">
+        <div class="row">
+            <h4>لنبق على اتصال</h4>
+            <h3>لا تتردد في مراسلتنا أو الاتصال بنا</h3>
+            <a href="{% url 'contact' %}">تواصل معنا</a>
+        </div>
+        
+    </div>
+
+    {% include 'design/footer.html' %}
+
+
+</body>
+</html>
+{% endblock content %}

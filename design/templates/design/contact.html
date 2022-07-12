@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style_contact.css' %}">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4100/4100643.png">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Cairo:wght@300&family=El+Messiri:wght@500&family=Scheherazade+New&display=swap" rel="stylesheet">
+    <title>تواصل معنا</title>
+</head>
+<body>
+    <div class="section1">
+        <h2>تواصل معنا</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+
+        
+    <div class="section3">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3369.750966642406!2d15.117457614467487!3d32.37222551182307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c2a0478741b988c!2zMzLCsDIyJzIwLjAiTiAxNcKwMDcnMTAuNyJF!5e0!3m2!1sen!2sly!4v1657038677572!5m2!1sen!2sly" width="80%" height="620px;" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+
+    <div class="section2">
+        <div class="block">
+            <div class="column1">
+                <form method="post" action=".">
+                    {% csrf_token %}
+                    <ul class="contactList">
+                        <li id="name" class="contact" style="list-style-type:none;">{{ form.name }}</li>
+                        <li id="email" class="contact" style="list-style-type:none;">{{ form.email }}</li>
+                        <li id="content" class="contact" style="list-style-type:none;">{{ form.content }}</li>
+                    </ul>
+                    <input type="submit" value="Submit">
+        
+                </form>
+            </div>
+            <div class="column2">
+                <h3>إذا كان لديك أي استفسار لا تتردد في مراسلتنا أو الاتصال بنا</h3>
+                <ul>
+                    <li>قراره، مصراته، ليبيا                    </li>
+                    <li>916305392 (218+)                    </li>
+                    <li>hello@tafkeer.ly                    </li>
+                    <li>ساعات العمل ( السبت - الخميس، 9:00ص - 8:00م )</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% include 'design/footer.html' %}
+
+
+    
+</body>
+</html>
+{% endblock content %}
+
+
+
+

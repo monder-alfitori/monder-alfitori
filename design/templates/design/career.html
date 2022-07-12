@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4100/4100643.png">
+    <link rel="stylesheet" href="{% static 'css/style_career.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Cairo:wght@300&family=El+Messiri:wght@500&family=Scheherazade+New&family=Tajawal&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="section1">
+        <h2>انضم إلينا</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+
+    <div class="section2">
+        <div class="column1">
+            <h4>وظائف مستقبلية</h4>
+            <h3>نسعى دائماً لضم أصحاب الطموح معنا</h3>
+            <p>نتيجة لأن الشركة مازالت في بدايتها ونسعى إلى تكوين فريق متميز، لهذا نبحث على أعضاء في الفريق يتمتعون بالحماس وحب العمل الاستشاري وأن تكون عندهم إمكانية للتعلم المستمر والدخول في مشاريع مختلفة وقدرات عامة</p>
+        </div>
+        <div class="column2">
+            <img src="https://www.gempool.ie/images/uploads/employee_engagement_in_a_workplace.jpg" alt="">
+        </div>
+    </div>
+
+
+    <div class="section3">
+        <div class="row1">
+            <h4>فريقنا</h4>
+            <h3>بناء فريق يحمل نفس الرؤى والأهداف من أهم الأسباب لنجاح المؤسسات الكبيرة</h3>    
+            <hr class="hr1">
+            <hr class="hr2">
+            <hr class="hr3">  
+        </div>
+        <div class="row2">
+            <div class="grid">
+                <img src="https://freepngimg.com/save/148147-standing-smiling-business-man-free-photo/500x500" alt="">
+                <h1>بشير الفيتوري</h1>
+                <small>المدير التنفيذي</small>
+                <div class="social">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt=""></a>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt=""></a>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt=""></a>
+                </div>
+            </div>
+            <div class="grid">
+                <img src="https://pbs.twimg.com/media/FXDNgpsXgAAle_O?format=png&name=360x360" alt="">
+                <h1>منذر الفيتوري</h1>
+                <small>مطور مواقع</small>
+                <div class="social">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt=""></a>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt=""></a>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt=""></a>
+                </div>
+            </div>
+            <div class="grid1">
+                <img src="https://cdn1.iconfinder.com/data/icons/bokbokstars-121-classic-stock-icons-1/512/person-man.png" alt="">
+                <h1>عضوية جديدة</h1>
+                <small>مساعد استشاري</small>
+                <a href="{% url 'career_detail' %}">انضم إلينا</a>
+                
+            </div>
+        </div>
+    </div>
+
+    {% include 'design/footer.html' %}
+
+</body>
+</html>
+{% endblock content %}

@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    width: 90%;
+    margin: auto;
+    padding-top: 15vh;
+}
+.section1 .row {
+    text-align: center;
+}
+.section1 .row h3 {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 3vw;
+    color: #111;
+}
+.section1 .row small {
+    color: #f97;
+    font-size: 2vw;
+    font-family: 'Almarai', sans-serif;
+}
+.row .hr1 {
+    width: 30%;
+    margin: auto;
+    background-color: #58b09c;
+    height: 3px;
+    border: none;
+    margin-top: 3vh;
+  }
+  .row .hr2 {
+    width: 30%;
+    margin-left: 45%;
+    background-color: #58b09c;
+    height: 3px;
+    border: none;
+    margin-top: 2vh;
+  
+  }
+.row .hr3 {
+    width: 30%;
+    margin-left: 25%;
+    background-color: #58b09c;
+    height: 3px;
+    border: none;
+    margin-top: 2vh;
+    margin-bottom:10vh;
+  }
+.section1 .column1 {
+    float: left;
+    width: 40%;
+    padding: 5vh 2vw 3vh 2vw;
+    border-radius: 20px;
+    background-color: #f97;
+}
+.section1 .column1 h3 {
+    text-align: center;
+    color: #008080;
+    font-size: 2.5vw;
+    font-family: 'Almarai', sans-serif;
+    margin-bottom: 4vh;
+}
+.section1 .column1 input[type=text] {
+    width: 100%;
+    background-color: #fdfdfd;
+    padding: 1.5vw;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 3vh;
+
+}
+.section1 .column1 label {
+    font-size: 1vw;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section1 .column1 textarea {
+    width: 100%;
+    background-color: #fdfdfd;
+    padding: 1.5vw;
+    padding-bottom: 15vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+.section1 .column1 input[type=submit] {
+    width: 100%;
+    background-color: #008080;
+    color: white;
+    padding: 2.5vh;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 3vh;
+    font-size: 1.5vw;
+}
+      
+.section1 .column1 input[type=submit]:hover {
+    background-color: #fff;
+    color: #008080;
+    }
+
+.section1 .column2 {
+    float: right;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 3vh;
+    direction: rtl;
+}
+.section1 .column2 h3 {
+    font-size: 2vw;
+    font-family: 'Almarai', sans-serif;
+    margin-bottom: 1vh;
+    color: #008080;
+}
+.section1 .column2 p {
+    font-size: 1.4vw;
+    font-family: 'Tajawal', sans-serif;
+    line-height: 1.4;
+    margin-bottom: 5vh;
+}
+.section1 .column2 ul {
+    margin-bottom: 5vh;
+}
+.section1 .column2 li {
+    font-size: 1.4vw;
+    font-family: 'Tajawal', sans-serif;
+    line-height: 1.4;
+}

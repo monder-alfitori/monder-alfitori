@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4100/4100643.png">
+    <link rel="stylesheet" href="{% static 'css/style_header.css' %}">
+</head>
+<style>
+    * { 
+  padding:0;
+  margin:0;
+}
+body {
+  background-color: #ffff;
+}
+.header {
+  background-color: #f97;
+  display: block;
+  padding-top: 0.5vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header .logo {
+  color: #fff;
+  margin: 0.5vh 10vw;
+  font-size: 2.5vw;
+  float: left;
+  border-bottom: 0.7vw solid #fff;
+  border-radius: 1.5vw;
+  margin-bottom: 0.5vw;
+}
+.header .logo a {
+    text-decoration: none;
+    color: #fff;
+}
+.header .logo h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2vw;
+}
+.header .menu {
+  float: right;
+  padding: 3vh 1vw 1vh 0;
+  padding-right: 7vw;
+}
+.header .menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0.5vw;
+  border-top: 0.3vw solid #fff;
+  border-radius: 0.8vw;
+}
+.header .menu a:hover {
+  color: #008080;
+  background-color: #fff;
+  zoom: 1;
+  border-radius: 0.5rem;
+  border-top: 0.3vw solid #008080;
+}     
+
+
+
+</style>
+<body>
+    <div class="header">
+        <div class="header">
+            <div class="logo">
+                <h3><a href="{% url 'home' %}">TAFKEER</a></h3>
+            </div>
+            <div class="menu">
+                <a href="{% url 'services' %}">ماذا نعمل؟</a>
+                <a href="{% url 'career' %}">انضم إلينا</a>
+                <a href="{% url 'about' %}">من نحن؟</a>
+                <a href="{% url 'contact' %}">تواصل معنا</a>
+            </div>
+        </div>          
+    </div>
+       
+</body>
+</html>
+{% block content %}
+{% endblock content %}
